@@ -1,0 +1,22 @@
+// Karl Eerik Kotter
+// UL 2
+//22-09-2022
+
+
+
+
+public class teine {
+    public static void main(String[] args) 
+    {
+
+    // numbrid mille vahemikus valitakse üks
+    int min = 1;
+    int max = 5;
+
+    double suvalineNumber = Math.random()*(max-min+1)+min;
+    // kuna see ümardab täisarvuni on vahemik 1-6 ;3
+    System.out.println(Math.round(suvalineNumber));
+
+    
+    }
+}
