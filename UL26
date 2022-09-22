@@ -1,0 +1,19 @@
+import java.util.Scanner;
+//Karl Eerik Kotter
+//UL21
+//22.09.2022
+
+
+
+
+public class kahekumneesimene {
+    public static void main(String[] args) {
+        Scanner sisestus = new Scanner(System.in);
+        System.out.println("Sisestage minutid, et need teiseldada tundideks: ");
+        int tunnidVaartus = sisestus.nextInt();
+        sisestus.close();
+        int tunnid = tunnidVaartus / 60;
+        int minutid = tunnidVaartus % 60;
+        System.out.println(tunnidVaartus+" minutit on "+tunnid+" tundi ja "+minutid+" minutit. ");
+    }
+}
